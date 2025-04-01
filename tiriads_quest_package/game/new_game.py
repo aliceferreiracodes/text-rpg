@@ -50,8 +50,11 @@ def create_character():
     mag_bonus = ability_bonuses[5]
     dex_bonus = ability_bonuses[1]
 
-    New_character = Character(full_name, first_name, gender, race, cclass, init_abilities(ability_bonuses, ability_points), 
-                              init_skills(skill_points), init_stats(con_bonus, mag_bonus, dex_bonus, race))
+    abilities = init_abilities(ability_bonuses, ability_points)
+    skills = init_skills(skill_points)
+    stats = init_stats(con_bonus, mag_bonus, dex_bonus, race)
+
+    New_character = Character(full_name, first_name, gender, race, cclass, abilities, skills, stats)
     
     print("\nGood job, you finished character creation! Take a look at your character's info:\n")
     sleep(4)
