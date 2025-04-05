@@ -14,7 +14,7 @@ Tiriad's Quest is a work-in-progress that currently supports character creation.
 
 ## Documentation
 
-If you want to play the game, you're highly encouraged to first read the games documentation provided in this repository. This way, you'll learn how this RPG works and be able to get the best of it!
+If you want to play the game, you're highly encouraged to first read the game's documentation provided in this repository. This way, you'll learn how this RPG works and be able to get the best of it!
 
 
 ## Structure
@@ -38,7 +38,7 @@ tiriads-quest
 ```
 
 ## Usage
-If you want to run the game in your computer, first make sure if you have Python 3.12 or higher installed and added to PATH. Then you can:
+If you want to run the game on your computer, first make sure if you have Python 3.12 or higher installed and added to PATH. Then you can:
 
 1. Clone the repository OR
 2. Download zip
