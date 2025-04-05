@@ -44,7 +44,7 @@ If you want to run the game in your computer, first make sure if you have Python
 2. Download zip
 
 After doing that, follow these steps:
-- Open  `tiriads-quest/tiriads_quest_package/game` in any terminal on your computer;
+- Open  `tiriads-quest/tiriads_quest_package/game` in any terminal on your computer
 - run  `python main.py`
 - Start playing!
 
